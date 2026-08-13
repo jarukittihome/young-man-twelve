@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ภัทราวุธมาณพปุจฉา - โสฬสปัญหา</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@300;400;500;600&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4a3c31; 
+            --accent-color: #b27a3c; 
+            --bg-color: #f7f5f0; 
+            --card-bg: #ffffff;
+            --text-main: #333333;
+            --text-light: #666666;
+        }
+
+        body {
+            font-family: 'Sarabun', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        h1, h2, h3, .quote {
+            font-family: 'Pridi', serif;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: var(--card-bg);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            border-top: 5px solid var(--accent-color);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: var(--text-light);
+            font-size: 1.1rem;
+            font-style: italic;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: var(--accent-color);
+            font-size: 1.5rem;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 25px;
+        }
+
+        .dialogue-box {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .speech {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #faf9f6;
+            border: 1px solid #f0eee8;
+        }
+
+        .speech.buddha {
+            background-color: #fdfaf5;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .speaker {
+            display: block;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        .buddha .speaker {
+            color: var(--accent-color);
+        }
+
+        .speech p {
+            margin: 0;
+            font-size: 1.15rem;
+            color: #444;
+        }
+
+        .explanation {
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 20px 25px;
+            border-radius: 8px;
+            font-size: 1.05rem;
+            box-shadow: 0 4px 15px rgba(74, 60, 49, 0.15);
+        }
+
+        .explanation strong {
+            color: var(--accent-color);
+            font-family: 'Pridi', serif;
+            font-size: 1.15rem;
+            letter-spacing: 0.5px;
+        }
+
+        .explanation p {
+            margin: 10px 0 0 0;
+            color: #f7f5f0;
+        }
+
+        .quote {
+            text-align: center;
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-top: 60px;
+            padding: 30px;
+            border-top: 1px solid #eaeaea;
+            border-bottom: 1px solid #eaeaea;
+            font-style: italic;
+            position: relative;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+                margin: 20px auto;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+            .speech p {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ภัทราวุธมาณพปุจฉา</h1>
+            <p>จาก โสฬสปัญหา ปารายนวรรค สุตตนิบาต ขุททกนิกาย พระสุตตันตปิฎก</p>
+        </header>
+
+        <section>
+            <h2>๑. การหลุดพ้นจากแดนแห่งมาร</h2>
+            <div class="dialogue-box">
+                <div class="speech">
+                    <span class="speaker">ภัทราวุธมาณพ :</span>
+                    <p>"ข้าแต่พระผู้มีพระภาค ข้าพระองค์ขอทูลถามถึงธรรมอันประเสริฐ ชนทั้งหลายจากชนบทต่างๆ ได้มาประชุมกันเพื่อหวังจะฟังธรรมของพระองค์ ขอพระองค์จงตรัสบอกธรรมนั้นแก่ข้าพระองค์ทั้งหลายด้วยเถิด พระเจ้าข้า"</p>
+                </div>
+                <div class="speech buddha">
+                    <span class="speaker">พระพุทธเจ้า :</span>
+                    <p>"ดูก่อนภัทราวุธ ชนทั้งหลายจงกำจัดตัณหาความทะยานอยาก ในอารมณ์ทั้งหลายเสียให้สิ้นเชิง ทั้งในส่วนเบื้องบน (อนาคต) เบื้องต่ำ (อดีต) และเบื้องขวาง (ปัจจุบัน) เพราะบุคคลยึดมั่นสิ่งใดๆ ในโลก มารย่อมติดตามผู้นั้นไปได้ด้วยสิ่งนั้นๆ"</p>
+                </div>
+            </div>
+            <div class="explanation">
+                <strong>อรรถาธิบาย:</strong>
+                <p>ภัทราวุธมาณพเป็นตัวแทนของหมู่ชนมากมายที่มาแสวงหาความจริง พระพุทธองค์จึงตรัสสอนถึงรากเหง้าของทุกข์ นั่นคือ "ตัณหา" ที่ไม่จำกัดกาลเวลา การยึดมั่นถือมั่นในสิ่งใดสิ่งหนึ่ง ย่อมเป็นการสร้างรอยเท้าให้ "มาร" (กิเลสและวัฏสงสาร) สะกดรอยตามและผูกมัดเราไว้ได้</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>๒. ผู้มีสติ ไม่ยึดมั่นในสิ่งใด</h2>
+            <div class="dialogue-box">
+                <div class="speech buddha">
+                    <span class="speaker">พระพุทธเจ้า (ตรัสเพิ่มเติม) :</span>
+                    <p>"เพราะฉะนั้น ภิกษุเมื่อรู้รอบธรรมนี้แล้ว พึงเป็นผู้มีสติ ไม่พึงยึดมั่นสิ่งใดๆ ในโลก ไม่พึงทำความผูกพันใดๆ ให้เป็นของตน ชนเหล่าใดเห็นอาณาจักรแห่งมาร อันแวดล้อมด้วยปวงสัตว์ผู้อยู่ในอำนาจของมัน ย่อมพิจารณาเห็นว่า ชนเหล่านั้นเป็นผู้ติดอยู่ในบ่วงแห่งมฤตยู"</p>
+                </div>
+            </div>
+            <div class="explanation">
+                <strong>อรรถาธิบาย:</strong>
+                <p>พระองค์ทรงเน้นย้ำถึง "สติ" ในการรู้เท่าทันสรรพสิ่ง การไม่ยึดถือว่าสิ่งใดเป็น "ของตน" คือกุญแจสำคัญในการปลดเปลื้องพันธนาการ ผู้ที่มีปัญญาจะมองเห็นว่า โลกหรือแดนแห่งมาร (มารเธยยะ) นี้ ล้วนเต็มไปด้วยสัตว์ที่ถูกบ่วงแห่งความตายรัดรึงไว้ด้วยอำนาจของตัณหานั่นเอง</p>
+            </div>
+        </section>
+
+        <div class="quote">
+            “บุคคลยึดมั่นสิ่งใดๆ ในโลก<br>
+            มารย่อมติดตามผู้นั้นไปได้ด้วยสิ่งนั้นๆ”
+        </div>
+    </div>
+</body>
+</html>
